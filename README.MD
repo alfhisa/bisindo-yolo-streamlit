@@ -17,8 +17,7 @@ Real-time Indonesian Sign Language (BISINDO) recognition powered by [YOLOv11](ht
 
 ## 🚀 Live Demo
 
-📍 [Try it on Streamlit Cloud](https://<your-app-url>)  
-_(replace with your deployed URL)_
+📍 [Try it on Streamlit Cloud](https://bisindo-yolo.streamlit.app/)  
 
 ---
 
