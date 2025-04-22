@@ -37,8 +37,12 @@ webrtc_streamer(
     key="yolo-bisindo",
     video_transformer_factory=YOLOTransformer,
     media_stream_constraints={"video": True, "audio": False},
-    async_transform=True
+    async_transform=True,
+    rtc_configuration={
+        "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
+    }
 )
+
 
 # === Footer ===
 st.markdown("---")
