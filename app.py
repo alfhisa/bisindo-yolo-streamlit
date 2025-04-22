@@ -7,6 +7,8 @@ import os
 
 # === Setup Streamlit ===
 st.set_page_config(page_title="YOLOv11 BISINDO Detection", layout="wide")
+
+# === Title and Intro ===
 st.title("🖐️ BISINDO Detection using YOLOv11")
 
 # === Load Model ===
