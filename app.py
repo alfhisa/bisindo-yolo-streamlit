@@ -40,8 +40,7 @@ webrtc_streamer(
     async_transform=True,
     rtc_configuration={
         "iceServers": [
-            {"urls": "stun:stun.l.google.com:19302"},  # Google STUN
-            {"urls": "stun:global.stun.twilio.com:3478?transport=udp"}  # Twilio STUN
+            {"urls": ["stun:stun.l.google.com:19302"]}
         ]
     }
 )
