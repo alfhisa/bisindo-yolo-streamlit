@@ -2,7 +2,7 @@
 
 Real-time Indonesian Sign Language (BISINDO) recognition powered by [YOLOv11](https://github.com/ultralytics/ultralytics) and deployed with [Streamlit](https://streamlit.io/). This app runs directly in the browser using WebRTC webcam integration.
 
-![YOLOv11 BISINDO Detection Screenshot](https://github.com/alfhisa/bisindo-yolo-streamlit/raw/main/screenshot.png)
+![YOLOv11 BISINDO Detection](https://github.com/alfhisa/bisindo-yolo-streamlit/raw/main/bisindo-img-2.png)
 
 ---
 
