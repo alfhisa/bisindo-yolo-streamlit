@@ -6,22 +6,21 @@ Real-time Indonesian Sign Language (BISINDO) recognition powered by [YOLOv11](ht
 
 ---
 
-## 🔧 Features
+## Features
 
-- ✅ Real-time detection of BISINDO signs from webcam
-- ⚡ Built with state-of-the-art YOLOv11 object detection model
-- 🌐 Deployable in web browser via Streamlit + WebRTC
-- 📆 Lightweight and interactive web app
+-  Real-time detection of BISINDO signs from webcam
+-  Built with state-of-the-art YOLOv11 object detection model
+-  Deployable in web browser via Streamlit + WebRTC
+-  Lightweight and interactive web app
 
 ---
 
 ## 🚀 Live Demo
-
-📍 [Try it on Streamlit Cloud](https://bisindo-yolo.streamlit.app/)  
+ [Try it on Streamlit Cloud](https://bisindo-yolo.streamlit.app/)  
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app.py                # Streamlit main app
@@ -32,7 +31,7 @@ Real-time Indonesian Sign Language (BISINDO) recognition powered by [YOLOv11](ht
 
 ---
 
-## 🧪 Run Locally
+## Run Locally
 
 ### 1. Clone the repo
 
@@ -59,7 +58,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 Model
+## Model
 
 Trained using YOLOv11 on a custom BISINDO sign dataset.  
 Supports **A-Z** hand gesture detection.
@@ -68,7 +67,7 @@ Supports **A-Z** hand gesture detection.
 
 ---
 
-## 📆 Deployment
+## Deployment
 
 This app is fully compatible with [Streamlit Cloud](https://streamlit.io/cloud).
 
@@ -86,7 +85,7 @@ If webcam fails to load:
 
 ---
 
-## 🙌 Credits
+## Credits
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics) for YOLOv11
 - [streamlit-webrtc](https://github.com/whitphx/streamlit-webrtc) for browser webcam support
